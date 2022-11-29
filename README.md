@@ -1,6 +1,6 @@
 ## React-clone-IG
 
-# 布魯斯前端 React仿Instagram教學 課程內容
+布魯斯前端 React仿Instagram教學 課程內容
 
 1. NPM安裝
 
