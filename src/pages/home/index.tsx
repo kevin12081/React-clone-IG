@@ -4,6 +4,7 @@ import IGContainer from "components/IGContainer";
 import IGUser from "components/IGUser";
 import IGPost from "./components/IGPost";
 import IGStory from "./components/IG story";
+import IGProfile from "./components/IGProfile";
 
 const IGPostList: React.FC = () => {
   const data = [
@@ -108,7 +109,9 @@ const Home: React.FC = () => {
             <IGPostList />
           </div>
           {/* home right */}
-          <div className="hidden lg:block lg:w-[424px]"></div>
+          <div className="hidden lg:block lg:w-[424px]">
+            <IGProfile />
+          </div>
         </div>
       </IGContainer>
     </>
